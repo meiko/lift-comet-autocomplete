@@ -1,0 +1,15 @@
+<lift:surround with="default" at="content">
+  <h2>test autoselect component</h2>
+		<p>
+      <lift:snippet type="MySnippet:show">
+        AutoSelect (Snippet): <snip:autoselect />
+      </lift:snippet>
+    </p>
+      <br/>
+    <p>
+      <lift:comet type="MyCometActor" >
+        AutoSelect (Comet): <demo:autoselect />
+      </lift:comet>
+    </p>
+</lift:surround>
+
